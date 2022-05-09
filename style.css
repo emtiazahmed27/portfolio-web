@@ -1,0 +1,115 @@
+:root {
+  --txt-clr-purple: #7510f7;
+  --txt-clr-navi-b: #141c3a;
+  --txt-clr-white: white;
+
+  --bg-clr-prpl: #7510f7;
+  --bg-clr-navi-b: #141c3a;
+  --bg-clr-white: white;
+}
+
+.bg-color-white {
+  background-color: var(--bg-clr-white);
+}
+.bg-color-prple {
+  background-color: var(--bg-clr-prpl);
+}
+.bg-color-navi-b {
+  background-color: var(--bg-clr-navi-b);
+}
+
+.h-85 {
+  height: 85vh;
+}
+
+.w-15 {
+  width: 15%;
+}
+.w-55 {
+  width: 55%;
+}
+
+/* spacing-all-over */
+.spacing-a-1rem {
+  padding: 1rem;
+}
+.spacing-a-2rem {
+  padding: 2rem;
+}
+.spacing-a-3rem {
+  padding: 3rem;
+}
+.spacing-a-4rem {
+  padding: 4rem;
+}
+/* spacing-all-over */
+
+/* spacing-top */
+.spacing-t-1rem {
+  padding-top: 1rem;
+}
+.spacing-t-2rem {
+  padding-top: 2rem;
+}
+.spacing-t-3rem {
+  padding-top: 3rem;
+}
+.spacing-t-4rem {
+  padding-top: 4rem;
+}
+.spacing-t-8rem {
+  padding-top: 8rem;
+}
+/* spacing-top*/
+
+.btn {
+  border: 0.1rem solid var(--txt-clr-purple);
+  border-radius: 0.6rem;
+}
+
+.a-txt-regular {
+  text-decoration: none;
+  color: inherit;
+}
+
+.a-txt-clr-wh {
+  text-decoration: none;
+  color: var(--txt-clr-white);
+}
+
+.a-txt-clr {
+  text-decoration: none;
+  color: var(--txt-clr-purple);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+  line-height: 1.6;
+  color: var(--txt-clr-navi-b);
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 1.6;
+  color: var(--txt-clr-navi-b);
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+  line-height: 1.6;
+  color: var(--txt-clr-white);
+}
+
+h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+  line-height: 1.6;
+  color: var(--txt-clr-navi-b);
+}
