@@ -113,3 +113,7 @@ h4 {
   line-height: 1.6;
   color: var(--txt-clr-navi-b);
 }
+
+.spacing-t-50rem {
+  padding-top: 50rem;
+}
